@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="M$l%n=rY6*@7pzJ~Rimk">Player</variable><variable type="KIND_SpriteKind" id="f}D|x##,l)@x(jVUF*M}">Projectile</variable><variable type="KIND_SpriteKind" id="r!5SoBhF3ifI0,?9zjQb">Food</variable><variable type="KIND_SpriteKind" id="TU!`quaWEsqf/0Y/:{y*">Enemy</variable><variable id="qt#I_t]QDR8),s5H2Dz-">Juan</variable><variable id="BMk8Rzp!$U1Zj,]iyi@l">Jeff</variable><variable id="sVov@;)r1ro6F?r6|sRy">mySprite</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="qt#I_t]QDR8),s5H2Dz-">Juan</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . f . . . . . . . . 
+. . . . . f f f f f . . . . . . 
+. . . . . f f f f f . . . . . . 
+. . . . . d d d d d . . . . . . 
+. . . . . d f d f d . . . . . . 
+. . . . . d d d d d . . . . . . 
+. . . . . d d d d d . . . . . . 
+. . . . . . d d d . . . . . . . 
+. . . . 8 8 8 8 8 8 8 . . . . . 
+. d d d 8 8 8 8 8 8 8 d d d . . 
+. d d d 8 8 8 8 8 8 8 d d d . . 
+. d d d 8 8 8 8 8 8 8 d d d . . 
+. d d d 8 8 8 8 8 8 8 d d d . . 
+. . . . f f f f f f f . . . . . 
+. . . . f f f f f f f . . . . . 
+. . . . f f f f f f f . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set"><field name="VAR" id="BMk8Rzp!$U1Zj,]iyi@l">Jeff</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . f . . . . . . . 
+. . . . . . f f f f f . . . . . 
+. . . . . . f f f f f . . . . . 
+. . . . . . d d d d d . . . . . 
+. . . . . . d f d f d . . . . . 
+. . . . . . d d d d d . . . . . 
+. . . . . . d d d d d . . . . . 
+. . . . . . . d d d . . . . . . 
+. . d d d 7 7 7 7 7 7 7 d d d . 
+. . d d d 7 7 7 7 7 7 7 d d d . 
+. . d d d 7 7 7 7 7 7 7 d d d . 
+. . d d d 7 7 7 7 7 7 7 d d d . 
+. . . . . 7 7 7 7 7 7 7 . . . . 
+. . . . . f f f f f f f . . . . 
+. . . . . f f f f f f f . . . . 
+. . . . . f f f f f f f . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundcolor"><value name="color"><shadow type="colorindexpicker"><field name="index">3</field></shadow></value><next><block type="controls_repeat_ext"><value name="TIMES"><shadow type="math_whole_number"><field name="NUM">9</field></shadow></value><statement name="DO"><block type="device_pause"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="qt#I_t]QDR8),s5H2Dz-">Juan</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">4</field></shadow></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="BMk8Rzp!$U1Zj,]iyi@l">Jeff</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-6</field></shadow></value><next><block type="device_pause"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="qt#I_t]QDR8),s5H2Dz-">Juan</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">4</field></shadow></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="BMk8Rzp!$U1Zj,]iyi@l">Jeff</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">-6</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></next></block></next></block></statement></block></xml>
