@@ -43,3 +43,11 @@ for (let index = 0; index < 9; index++) {
     Juan.x += 4
     Jeff.x += -6
 }
+for (let index = 0; index < 9; index++) {
+    pause(100)
+    Juan.y += -4
+    Jeff.y += 6
+    pause(100)
+    Juan.x += -4
+    Jeff.x += 6
+}
